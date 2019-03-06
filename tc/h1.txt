@@ -1,0 +1,62 @@
+Step:  1
+Len of Open:  1
+The best node:
+[2, 8, 3]
+[1, 6, 4]
+[7, 0, 5]
+The f(n) of this node: 4
+
+Step:  2
+Len of Open:  3
+The best node:
+[2, 8, 3]
+[1, 0, 4]
+[7, 6, 5]
+The f(n) of this node: 4
+
+Step:  3
+Len of Open:  5
+The best node:
+[2, 0, 3]
+[1, 8, 4]
+[7, 6, 5]
+The f(n) of this node: 5
+
+Step:  4
+Len of Open:  6
+The best node:
+[2, 8, 3]
+[0, 1, 4]
+[7, 6, 5]
+The f(n) of this node: 5
+
+Step:  5
+Len of Open:  7
+The best node:
+[0, 2, 3]
+[1, 8, 4]
+[7, 6, 5]
+The f(n) of this node: 5
+
+Step:  6
+Len of Open:  7
+The best node:
+[1, 2, 3]
+[0, 8, 4]
+[7, 6, 5]
+The f(n) of this node: 5
+
+Step:  7
+Len of Open:  8
+The best node:
+[1, 2, 3]
+[8, 0, 4]
+[7, 6, 5]
+The f(n) of this node: 5
+
+[[2, 8, 3], [1, 6, 4], [7, 0, 5]]
+[[2, 8, 3], [1, 0, 4], [7, 6, 5]]
+[[2, 0, 3], [1, 8, 4], [7, 6, 5]]
+[[0, 2, 3], [1, 8, 4], [7, 6, 5]]
+[[1, 2, 3], [0, 8, 4], [7, 6, 5]]
+[[1, 2, 3], [8, 0, 4], [7, 6, 5]]
